@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TechConnect</h1>
+    </header>
+
+    <section class="evento">
+        <h2>O evento do ano! TechConnect</h2>
+        <h3>Evento dia 27/03/2025</h3>
+        <p class="descricao">O Techconnect 2025 é um evento internacional dedicado à inovação 
+            tecnológica e transformação digital. Durante três dias de palestras, 
+            workshops e exposições, profissionais, entusiastas e empresas de 
+            tecnologia se reuniram para discutir as últimas tendências, trocar 
+            experiências e explorar soluções tecnológicas para o futuro.</p>
+    </section>
+
+    <section class="palestrantes">
+        <h3>Palestrantes</h3>
+        <img src="Palestrantes.jpg" alt="foto palestrantes">
+        <p>1. Carlos Silva   
+            Especialista em Inteligência Artificial e automação 
+            de processos, Carlos tem mais de 15 anos de experiência 
+            em grandes empresas de TI, ajudando a integrar IA em sistemas 
+            empresariais. Ele é também autor e palestrante internacional.
+        </p><br>
+
+        <p>2. Fernanda Costa  
+        Consultora estratégica e empresária, Fernanda é focada em transformação digital e inovação corporativa. Com vasta experiência em multinacionais, ela orienta empresas a adotarem tecnologias disruptivas.
+        </p> <br>
+        
+        <p>3. Roberto Almeida
+        Desenvolvedor de software e líder em startups, Roberto trabalha com soluções para a indústria 4.0, ajudando empresas a otimizar a produção e reduzir custos operacionais.
+        </p><br>
+        
+        <p>4. Luana Pereira   
+        Especialista em UX/UI design, Luana cria interfaces inovadoras para empresas e compartilha seu conhecimento em workshops sobre design centrado no usuário.
+        </p><br>
+        
+        <p>5. Gustavo Martins   
+        Engenheiro de dados, Gustavo transforma Big Data em insights valiosos para empresas, ajudando na tomada de decisões através de modelos analíticos sofisticados.
+        </p><br>
+
+        <p>6. Juliana Santos   
+        Especialista em cibersegurança, Juliana protege dados e informações sensíveis de empresas, com foco em segurança digital e privacidade online.
+        </p><br>
+
+        <p>7. Thiago Oliveira   
+        Futurista e palestrante, Thiago é especialista em tecnologias emergentes como computação quântica e seu impacto nas sociedades globais.
+        </p><br>
+
+        <p>8. Mariana Ribeiro   
+        Engenheira de software e empreendedora em IA aplicada à saúde, Mariana desenvolve tecnologias para melhorar diagnósticos e tratamentos médicos personalizados.
+        </p><br>
+
+        <p>9. Eduardo Lima   
+        Especialista em marketing digital, Eduardo ajuda marcas a crescerem online por meio de SEO, SEM e campanhas em redes sociais.
+        </p><br>
+
+        <p>10. Patrícia Costa   
+        Consultora em sustentabilidade, Patrícia trabalha com empresas para implementar práticas verdes e tecnologias que minimizem os impactos ambientais.
+        </p><br>
+    </section>
+
+    <section class="formulario">
+        <h3>Inscrição</h3>
+        <form action="_blank">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome:" required><br><br>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Ex: alguem@gmail.com" required><br><br>
+            
+            <label for="ingresso">Tipo de ingresso:</label>
+            <input type="radio" name="ingressos" id="presencial" required<label for="presencial">Presencial</label><br>
+            <input type="radio" name="ingressos" id="online" required<label for="online">Online</label><br>
+            
+            <label for="nome">Aceita os termos?</label>
+            <input type="checkbox" required <label for="check">Sim, desejo receber novidades</label><br><br>
+            
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </section>
+
+    <!-- Perguntas sobre acessibilidade -->
+    <section class="feedback">
+        <h3>Feedback</h3>
+        <p>O texto está claro e fácil de ler?</p>
+        <label for="texto-claro">
+            <input type="radio" name="feedback-texto" id="texto-claro" required> Sim
+        </label>
+        <label for="texto-claro-nao">
+            <input type="radio" name="feedback-texto" id="texto-claro-nao" required> Não
+        </label><br>
+
+        <p>O formulário é fácil de preencher?</p>
+        <label for="formulario-facil">
+            <input type="radio" name="feedback-formulario" id="formulario-facil" required> Sim
+        </label>
+        <label for="formulario-dificil">
+            <input type="radio" name="feedback-formulario" id="formulario-dificil" required> Não
+        </label>
+    </section>
+</body>
+</html>
